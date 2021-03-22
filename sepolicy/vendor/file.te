@@ -26,3 +26,6 @@ type proc_last_kmsg, fs_type, proc_type;
 type proc_sched_energy_aware, proc_type, fs_type;
 
 type thermal_data_file, file_type, data_file_type;
+
+# FPS Info
+type sysfs_fps, sysfs_type, fs_type;
