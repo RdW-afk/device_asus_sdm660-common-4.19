@@ -54,6 +54,7 @@ public class DeviceSettings extends PreferenceFragment implements
             startActivity(intent);
             return true;
         });
+    }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object value) {
